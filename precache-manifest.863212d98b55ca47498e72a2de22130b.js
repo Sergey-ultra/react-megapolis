@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62642395272faba876d49fe73ae79939",
+    "revision": "c4964a05634770834a7e57f54c4e78c5",
     "url": "/react-megapolis/index.html"
   },
   {
-    "revision": "b86d0b6126868083ab50",
+    "revision": "0e0636fca8c495a2d426",
     "url": "/react-megapolis/static/css/main.eedf99c6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-megapolis/static/js/2.3958a0d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b86d0b6126868083ab50",
-    "url": "/react-megapolis/static/js/main.d2a20c2a.chunk.js"
+    "revision": "0e0636fca8c495a2d426",
+    "url": "/react-megapolis/static/js/main.bb26bfa7.chunk.js"
   },
   {
     "revision": "cf57d5a12359275a43b6",
