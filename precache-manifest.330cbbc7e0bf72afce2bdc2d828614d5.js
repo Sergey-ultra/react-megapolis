@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4964a05634770834a7e57f54c4e78c5",
+    "revision": "c657f95d70a83cd3f91fc041efa0f62b",
     "url": "/react-megapolis/index.html"
   },
   {
