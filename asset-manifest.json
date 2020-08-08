@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-megapolis/static/css/main.eedf99c6.chunk.css",
+    "main.js": "/react-megapolis/static/js/main.d2a20c2a.chunk.js",
+    "main.js.map": "/react-megapolis/static/js/main.d2a20c2a.chunk.js.map",
+    "runtime-main.js": "/react-megapolis/static/js/runtime-main.712650d6.js",
+    "runtime-main.js.map": "/react-megapolis/static/js/runtime-main.712650d6.js.map",
+    "static/js/2.3958a0d7.chunk.js": "/react-megapolis/static/js/2.3958a0d7.chunk.js",
+    "static/js/2.3958a0d7.chunk.js.map": "/react-megapolis/static/js/2.3958a0d7.chunk.js.map",
+    "index.html": "/react-megapolis/index.html",
+    "precache-manifest.c04bb3f624a836032dd3b13d50448d42.js": "/react-megapolis/precache-manifest.c04bb3f624a836032dd3b13d50448d42.js",
+    "service-worker.js": "/react-megapolis/service-worker.js",
+    "static/css/main.eedf99c6.chunk.css.map": "/react-megapolis/static/css/main.eedf99c6.chunk.css.map",
+    "static/js/2.3958a0d7.chunk.js.LICENSE.txt": "/react-megapolis/static/js/2.3958a0d7.chunk.js.LICENSE.txt",
+    "static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.gif": "/react-megapolis/static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.26ef8bb4.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.712650d6.js",
+    "static/js/2.3958a0d7.chunk.js",
+    "static/css/main.eedf99c6.chunk.css",
+    "static/js/main.d2a20c2a.chunk.js"
+  ]
+}
