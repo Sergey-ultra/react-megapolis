@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Route, withRouter} from 'react-router-dom';
+import {Preloader} from "./components/Preloader";
+import {ListContainer} from "./components/ListContainer";
+/*import {compose} from "redux";*/
+import {connect} from "react-redux";
+import {Detail} from "./components/Detail";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+//-------стили--------------
+import './App.css'
+import './components/scss/main.scss';
+
+const App = ({appInitialized}) => {
+
+    return (!appInitialized)
+        ? <Preloader/>
+        : <BrowserRouter>
+            <div className='app-wrapper'>
+                <div className="container">
+                    <Route exact path='/' render={() => <ListContainer/>}/>
+                    <Route exact path='/items/:id' component={Detail}/>
+                </div>
+            </div>
+        </BrowserRouter>
 }
+const mapStateToProps = (state) => ({
+    appInitialized: state.app.appInitialized
+});
 
-export default App;
+export default connect(mapStateToProps, {})(App);

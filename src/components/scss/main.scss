@@ -1,0 +1,101 @@
+@import "form";
+@import "detail";
+@import "modal";
+@import "layout";
+
+
+
+.header {
+    margin: 40px 0 22px 0;
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__title {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__button {
+         margin-top: 20px;
+         width: 148px;
+    }
+}
+
+.item{
+    margin-top: 22px;
+
+    &__row {
+        height: 42px;
+        font-family: Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 42px;
+        border: 1px solid #E6E6E6;
+        box-sizing: content-box;
+
+        &:hover {
+            background-color: rgba(71, 255, 100, 0.16);
+        }
+    }
+    &__index {
+        padding-left: 21px;
+        width: 183px;
+        a {
+            height:100%;
+            width:100%;
+        }
+
+    }
+
+    &__description {
+        width: 867px;
+        padding: 10px 10px 10px 20px;
+    }
+
+    &__manipulation {
+        width: 99px;
+        padding-left: 20px;
+        color: #666666;
+        font-weight: 200;
+        font-size: 22px;
+    }
+    &__details {
+        display: inline-block;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
+
+    &__delete {
+        cursor: pointer;
+        padding-left: 24px;
+        color: #F4583F;
+        display: inline-block;
+
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.container {
+    margin: 0 auto;
+    max-width: 1173px;
+    padding: 0 10px;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #39B54A;
+    height: 36px;
+    width: 146px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 4px;
+    align-items: center;
+    color: #000000;
+    &:hover {
+        background-color: #39B54A;
+        color: #fff;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    height:100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    td {
+        margin: auto;
+        border: 1px solid #E6E6E6;
+    }
+}

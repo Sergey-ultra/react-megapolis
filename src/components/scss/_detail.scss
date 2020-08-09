@@ -1,0 +1,38 @@
+
+.detail{
+    &__main {
+        margin-top: 12px;
+        height: 40px;
+        display:flex;
+        align-items:center;
+        width: 100%;
+        background: #F2F2F2;
+        border-radius: 4px;
+        border: none;
+        padding: 0 10px;
+    }
+
+    &__text {
+        margin-top: 22px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    &__title {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+    }
+    &-btn{
+        margin-top:34px;
+        width: 180px;
+        border: 1px solid #0071BC;
+        &:hover{
+            background-color: #0071BC;
+        }
+    }
+}
