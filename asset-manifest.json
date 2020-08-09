@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-megapolis/static/css/main.18380c11.chunk.css",
-    "main.js": "/react-megapolis/static/js/main.2b768086.chunk.js",
-    "main.js.map": "/react-megapolis/static/js/main.2b768086.chunk.js.map",
+    "main.css": "/react-megapolis/static/css/main.0c86fb16.chunk.css",
+    "main.js": "/react-megapolis/static/js/main.517a40c3.chunk.js",
+    "main.js.map": "/react-megapolis/static/js/main.517a40c3.chunk.js.map",
     "runtime-main.js": "/react-megapolis/static/js/runtime-main.712650d6.js",
     "runtime-main.js.map": "/react-megapolis/static/js/runtime-main.712650d6.js.map",
     "static/js/2.52b1f358.chunk.js": "/react-megapolis/static/js/2.52b1f358.chunk.js",
     "static/js/2.52b1f358.chunk.js.map": "/react-megapolis/static/js/2.52b1f358.chunk.js.map",
     "index.html": "/react-megapolis/index.html",
-    "precache-manifest.eb1f7695e9c1348be9958e737720e897.js": "/react-megapolis/precache-manifest.eb1f7695e9c1348be9958e737720e897.js",
+    "precache-manifest.45b787e588973ec2c4a508b870e546d9.js": "/react-megapolis/precache-manifest.45b787e588973ec2c4a508b870e546d9.js",
     "service-worker.js": "/react-megapolis/service-worker.js",
-    "static/css/main.18380c11.chunk.css.map": "/react-megapolis/static/css/main.18380c11.chunk.css.map",
+    "static/css/main.0c86fb16.chunk.css.map": "/react-megapolis/static/css/main.0c86fb16.chunk.css.map",
     "static/js/2.52b1f358.chunk.js.LICENSE.txt": "/react-megapolis/static/js/2.52b1f358.chunk.js.LICENSE.txt",
     "static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.gif": "/react-megapolis/static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.26ef8bb4.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.712650d6.js",
     "static/js/2.52b1f358.chunk.js",
-    "static/css/main.18380c11.chunk.css",
-    "static/js/main.2b768086.chunk.js"
+    "static/css/main.0c86fb16.chunk.css",
+    "static/js/main.517a40c3.chunk.js"
   ]
 }
